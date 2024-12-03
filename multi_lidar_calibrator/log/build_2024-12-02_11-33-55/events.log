@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (multi_lidar_calibrator) JobQueued: {'identifier': 'multi_lidar_calibrator', 'dependencies': OrderedDict()}
+[0.000533] (multi_lidar_calibrator) JobStarted: {'identifier': 'multi_lidar_calibrator'}
+[0.027068] (multi_lidar_calibrator) JobProgress: {'identifier': 'multi_lidar_calibrator', 'progress': 'cmake'}
+[0.028009] (multi_lidar_calibrator) Command: {'cmd': ['/usr/bin/cmake', '/home/ykxn/Desktop/multi_lidar_calibrator', '-DCMAKE_BUILD_TYPE=Release', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ykxn/Desktop/multi_lidar_calibrator/install/multi_lidar_calibrator'], 'cwd': '/home/ykxn/Desktop/multi_lidar_calibrator/build/multi_lidar_calibrator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('USER', 'ykxn'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '7986'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/ykxn'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '7847'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b76a4930dc58f989e3865301674d093c'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('https_proxy', 'http://127.0.0.1:7890/'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'ykxn'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:222022'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'ykxn'), ('XDG_SESSION_ID', '72'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '51627fb83ad34ec995a8f640c960967c'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/ykxn-MINIPC-PN51-E1:@/tmp/.ICE-unix/7908,unix/ykxn-MINIPC-PN51-E1:/tmp/.ICE-unix/7908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5b4e2d1d_41f5_450b_8ff4_07dda28bc8f7'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ykxn/Desktop/multi_lidar_calibrator/build/multi_lidar_calibrator'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b76a4930dc58f989e3865301674d093c'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[0.098955] (-) TimerEvent: {}
+[0.173327] (multi_lidar_calibrator) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.199133] (-) TimerEvent: {}
+[0.255542] (multi_lidar_calibrator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.268398] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299255] (-) TimerEvent: {}
+[0.369611] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.371374] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399393] (-) TimerEvent: {}
+[0.485306] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.499584] (-) TimerEvent: {}
+[0.503293] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.599780] (-) TimerEvent: {}
+[0.700261] (-) TimerEvent: {}
+[0.800787] (-) TimerEvent: {}
+[0.830940] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.838165] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.900971] (-) TimerEvent: {}
+[0.956781] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.958692] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.001376] (-) TimerEvent: {}
+[1.075818] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.082422] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.101486] (-) TimerEvent: {}
+[1.202228] (-) TimerEvent: {}
+[1.302669] (-) TimerEvent: {}
+[1.403066] (-) TimerEvent: {}
+[1.503384] (-) TimerEvent: {}
+[1.568443] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.580508] (multi_lidar_calibrator) StderrLine: {'line': b'CMake Error at CMakeLists.txt:4 (find_package):\n'}
+[1.581222] (multi_lidar_calibrator) StderrLine: {'line': b'  By not providing "Findautoware_build_flags.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.581537] (multi_lidar_calibrator) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.581889] (multi_lidar_calibrator) StderrLine: {'line': b'  "autoware_build_flags", but CMake did not find one.\n'}
+[1.582178] (multi_lidar_calibrator) StderrLine: {'line': b'\n'}
+[1.582404] (multi_lidar_calibrator) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.583874] (multi_lidar_calibrator) StderrLine: {'line': b'  "autoware_build_flags" with any of the following names:\n'}
+[1.584115] (multi_lidar_calibrator) StderrLine: {'line': b'\n'}
+[1.584464] (multi_lidar_calibrator) StderrLine: {'line': b'    autoware_build_flagsConfig.cmake\n'}
+[1.584767] (multi_lidar_calibrator) StderrLine: {'line': b'    autoware_build_flags-config.cmake\n'}
+[1.584924] (multi_lidar_calibrator) StderrLine: {'line': b'\n'}
+[1.585061] (multi_lidar_calibrator) StderrLine: {'line': b'  Add the installation prefix of "autoware_build_flags" to CMAKE_PREFIX_PATH\n'}
+[1.585199] (multi_lidar_calibrator) StderrLine: {'line': b'  or set "autoware_build_flags_DIR" to a directory containing one of the\n'}
+[1.585336] (multi_lidar_calibrator) StderrLine: {'line': b'  above files.  If "autoware_build_flags" provides a separate development\n'}
+[1.585475] (multi_lidar_calibrator) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[1.585613] (multi_lidar_calibrator) StderrLine: {'line': b'\n'}
+[1.585749] (multi_lidar_calibrator) StderrLine: {'line': b'\n'}
+[1.586236] (multi_lidar_calibrator) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.586404] (multi_lidar_calibrator) StdoutLine: {'line': b'See also "/home/ykxn/Desktop/multi_lidar_calibrator/build/multi_lidar_calibrator/CMakeFiles/CMakeOutput.log".\n'}
+[1.586988] (multi_lidar_calibrator) CommandEnded: {'returncode': 1}
+[1.603641] (-) TimerEvent: {}
+[1.622149] (multi_lidar_calibrator) JobEnded: {'identifier': 'multi_lidar_calibrator', 'rc': 1}
+[1.623921] (-) EventReactorShutdown: {}

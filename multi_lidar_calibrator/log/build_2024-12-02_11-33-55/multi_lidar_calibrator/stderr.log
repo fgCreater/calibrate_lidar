@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:4 (find_package):
+  By not providing "Findautoware_build_flags.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "autoware_build_flags", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "autoware_build_flags" with any of the following names:
+
+    autoware_build_flagsConfig.cmake
+    autoware_build_flags-config.cmake
+
+  Add the installation prefix of "autoware_build_flags" to CMAKE_PREFIX_PATH
+  or set "autoware_build_flags_DIR" to a directory containing one of the
+  above files.  If "autoware_build_flags" provides a separate development
+  package or SDK, be sure it has been installed.
+
+
